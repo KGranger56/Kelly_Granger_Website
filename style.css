@@ -66,6 +66,10 @@ p {
   border: 1px solid var(--primary-color);
 }
 
+.about-link:hover {
+  color: #0a58ca;
+}
+
 .homepage-link {
   color: var(--primary-color);
   text-align: center;
@@ -105,4 +109,33 @@ p {
 
 .navbar {
   justify-content: flex-start;
+}
+
+@media (max-width: 576px) {
+  h2 {
+    display: block;
+    text-align: center;
+    font-size: 45px;
+  }
+  .img {
+    display: none;
+  }
+  h1 {
+    font-size: 64px;
+    margin-bottom: 5px;
+  }
+  h3 {
+    font-size: 20px;
+    padding-right: 3px;
+    padding-left: 3px;
+  }
+  .primary-link {
+    font-size: 17px;
+    width: fit-content;
+    display: block;
+    margin: 0 auto;
+  }
+  p {
+    margin-bottom: 0px;
+  }
 }
